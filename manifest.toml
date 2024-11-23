@@ -43,6 +43,16 @@ ram.runtime = "50M"
     type = "path"
     default = "/silex-platform"
 
+    [install.gitlab_id]
+    help.en = "Gitlab Id"
+    help.fr = "Gitlab id"
+    type = "string"
+
+    [install.gitlab_secret]
+    help.en = "Gitlab Secret"
+    help.fr = "Gitlab secret"
+    type = "string"
+
 [resources]
     # See the packaging documentation for the full set
     # of explanation regarding the behavior and properties for each of those
@@ -56,6 +66,8 @@ ram.runtime = "50M"
 
         autoupdate.strategy = "latest_github_tag"
 
+    [resources.install_dir]
+    
     [resources.permissions]
     # This will configure SSOwat permission for $domain/$path/
     # The initial allowed group of user is configured via the init_main_permission question (public=visitors, private=all_users)
