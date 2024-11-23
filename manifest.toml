@@ -43,6 +43,19 @@ ram.runtime = "50M"
     type = "path"
     default = "/silex-platform"
 
+    [install.init_main_permission]
+    # this is a generic question - ask strings are automatically handled by YunoHost's core
+    # This won't be saved as setting and will instead be used to initialize the SSOwat permission
+    type = "group"
+    default = "visitors"
+
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["fr", "en"]
+    default = "fr"
+
     [install.gitlab_id]
     help.en = "Gitlab Id"
     help.fr = "Gitlab id"
@@ -68,7 +81,7 @@ ram.runtime = "50M"
 
 
     [resources.system_user]
-    
+
     [resources.install_dir]
     
     [resources.permissions]
