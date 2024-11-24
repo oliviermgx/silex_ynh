@@ -13,7 +13,7 @@ Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=
+ExecStart= SILEX_URL=$domain$path/ GITLAB_CLIENT_ID=$gitlab_id GITLAB_CLIENT_SECRET=$gitlab_secret npm start &
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 Restart=on-failure
