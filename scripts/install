@@ -97,6 +97,16 @@ ynh_config_add_nginx
 ### Have a look at the app to be sure this app needs a systemd script.
 ### `ynh_config_add_systemd` will use the file conf/systemd.service
 
+#
+# LOGROTATE
+#
+ynh_script_progression "Configuring logrotate to manage application logfiles"
+ynh_config_add_logrotate
+
+
+#
+# SYSTEMD
+#
 ynh_config_add_systemd
 
 ### `yunohost service add` integrates a service in YunoHost. It then gets
@@ -133,7 +143,7 @@ popd
 #=================================================
 # FINALIZE APP INSTALL WITH CURL
 #=================================================
-ynh_script_progression "Finalizing installation..."
+# ynh_script_progression "Finalizing installation..."
 
 ### Use these lines only if the app installation needs to be finalized through
 ### web forms. We generally don't want to ask the final user,
