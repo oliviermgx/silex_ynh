@@ -1,0 +1,383 @@
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:30:06 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:30:16 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:30:26 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:30:37 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:30:47 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:30:58 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:31:09 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:31:19 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:31:30 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:31:40 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:31:51 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1
+
+> @silexlabs/silex-platform@1.0.169 start
+> silex --server-config `pwd`/.silex.js --client-config `pwd`/client-config.js
+
+Redefining __dirname /var/www/silex-platform/src/ts/server/connectors
+> Env vars loaded from .env file
+> Default env vars loaded
+Mon, 25 Nov 2024 16:32:01 GMT body-parser deprecated undefined extended: provide extended option at node_modules/@silexlabs/silex/dist/server/server/express.js:28:35
+> Session name: silex-session
+> Serving client side config /var/www/silex-platform/client-config.js at silex.js
+> Loading user config /var/www/silex-platform/.silex.js
+> Silex dashboard plugin starting { options: undefined }
+> [StaticPlugin] Serving 1 static files
+> Silex onboarding plugin starting { options: undefined }
+Missing NOCODB env variables => NOCODB off
+> Add storage connector from env var: ftp
+> Add storage connector from env var: gitlab
+/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89
+                throw new Error(`\nUser config file ${this.userConfigPath} error:\n\n\t${e.message}\n\n`);
+                      ^
+
+Error: 
+User config file /var/www/silex-platform/.silex.js error:
+
+	Missing Gitlab client ID
+
+
+    at ServerConfig.loadUserConfig (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:89:23)
+    at async ServerConfig.loadConfigFiles (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/config.js:79:9)
+    at async silex (/var/www/silex-platform/node_modules/@silexlabs/silex/dist/server/server/index.js:66:5)
+
+Node.js v20.18.1

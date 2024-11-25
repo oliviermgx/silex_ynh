@@ -22,6 +22,8 @@ ynh_script_progression "Restoring system configurations related to $app..."
 
 ### This should be a symetric version of what happens in the install script
 
+ynh_config_add_logrotate
+
 ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 
 ynh_restore "/etc/systemd/system/$app.service"
