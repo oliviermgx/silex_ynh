@@ -101,6 +101,7 @@ ynh_config_add_nginx
 # LOGROTATE
 #
 ynh_script_progression "Configuring logrotate to manage application logfiles"
+
 ynh_config_add_logrotate
 
 
