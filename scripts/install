@@ -57,8 +57,7 @@ popd
 # LOGROTATE
 ynh_script_progression "Configuring logrotate to manage application logfiles"
 
-ynh_config_add_logrotate /var/log/"$app"
-touch /var/log/$app/$app.log
+ynh_config_add_logrotate
 
 # SYSTEMCTL
 ynh_script_progression "Starting app's systemd service..."

@@ -14,7 +14,8 @@ Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
 ###########
 # EXECSTART
-ExecStart=__NODEJS_DIR__/SILEX_URL="$domain$path" GITLAB_CLIENT_ID="$gitlab_id" GITLAB_CLIENT_SECRET="$gitlab_secret" npm start
+# ExecStart=__NODEJS_DIR__/SILEX_URL="$domain$path" GITLAB_CLIENT_ID="$gitlab_id" GITLAB_CLIENT_SECRET="$gitlab_secret" npm start
+ExecStart=npm start
 ###########
 
 StandardOutput=append:/var/log/__APP__/__APP__.log
