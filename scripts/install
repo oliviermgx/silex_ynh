@@ -97,17 +97,6 @@ ynh_config_add_nginx
 ### Have a look at the app to be sure this app needs a systemd script.
 ### `ynh_config_add_systemd` will use the file conf/systemd.service
 
-#
-# LOGROTATE
-#
-ynh_script_progression "Configuring logrotate to manage application logfiles"
-
-ynh_config_add_logrotate
-
-
-#
-# SYSTEMD
-#
 ynh_config_add_systemd
 
 ### `yunohost service add` integrates a service in YunoHost. It then gets
@@ -165,6 +154,14 @@ ynh_script_progression "Starting app's systemd service..."
 ###   - As well as the section "START SYSTEMD SERVICE" in the restore script
 ###   - As well as the section"STOP SYSTEMD SERVICE" and "START SYSTEMD SERVICE" in the upgrade script
 ###   - And the section "STOP SYSTEMD SERVICE" and "START SYSTEMD SERVICE" in the change_url script
+
+
+#
+# LOGROTATE
+#
+ynh_script_progression "Configuring logrotate to manage application logfiles"
+
+ynh_config_add_logrotate
 
 ynh_systemctl --service="$app" --action="start"
 
