@@ -35,17 +35,13 @@ ram.runtime = "50M"
 [install]
 
     [install.domain]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
     type = "domain"
 
     [install.path]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
     type = "path"
     default = "/silex-platform"
 
     [install.init_main_permission]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    # This won't be saved as setting and will instead be used to initialize the SSOwat permission
     type = "group"
     default = "visitors"
 
@@ -67,9 +63,6 @@ ram.runtime = "50M"
     type = "string"
 
 [resources]
-    # See the packaging documentation for the full set
-    # of explanation regarding the behavior and properties for each of those
-    # https://yunohost.org/packaging_apps_resources
 
     [resources.sources]
 
@@ -85,10 +78,7 @@ ram.runtime = "50M"
     [resources.install_dir]
     
     [resources.permissions]
-    # This will configure SSOwat permission for $domain/$path/
-    # The initial allowed group of user is configured via the init_main_permission question (public=visitors, private=all_users)
     main.url = "/"
 
     [resources.ports]
-    # This will pick a random port for reverse-proxying and store it as the $port setting
-    main.default = 6805
+    # main.default = 6805
