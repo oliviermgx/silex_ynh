@@ -12,17 +12,17 @@ Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 
 WorkingDirectory=__INSTALL_DIR__/
-
+###########
+# EXECSTART
+ExecStart=__NODEJS_DIR__/SILEX_URL="$domain$path" GITLAB_CLIENT_ID="$gitlab_id" GITLAB_CLIENT_SECRET="$gitlab_secret" npm start
+###########
 
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 Restart=on-failure
 RestartSec=10
 
-###########
-# EXECSTART
-ExecStart=__NODEJS_DIR__/SILEX_URL="$domain$path" GITLAB_CLIENT_ID="$gitlab_id" GITLAB_CLIENT_SECRET="$gitlab_secret" npm start
-###########
+
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these
