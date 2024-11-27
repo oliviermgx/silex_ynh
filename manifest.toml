@@ -67,7 +67,7 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/silexlabs/silex-platform/archive/refs/tags/v1.0.169.tar.gz"
+        url = "https://github.com/oliviermgx/editor.silex.me/archive/refs/heads/main.zip"
         sha256 = "a2a31204a345a766a047037bc09dbfb1bb614320d273faa54d2aaecf6ee022b4"
 
         autoupdate.strategy = "latest_github_tag"
