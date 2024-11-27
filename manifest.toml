@@ -68,7 +68,7 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         url = "https://github.com/oliviermgx/editor.silex.me/archive/refs/heads/main.zip"
-        sha256 = "035e06b6056895ce75ef1cfe83d46921d133484ce1f1cf214ddeb0c39dd38c05"
+        sha256 = "ce1529064fa29fcf9174572f0b9a4d67da3e2de38c777a0746b33c6b0deee138"
 
         autoupdate.strategy = "latest_github_tag"
 
