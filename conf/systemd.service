@@ -16,6 +16,8 @@ WorkingDirectory=__INSTALL_DIR__/
 # EXECSTART
 # ExecStart=__NODEJS_DIR__/npm start
 # Environment='SILEX_URL="$domain$path"'
+Environment='SILEX_SESSION_NAME="$admin"'
+Environment='SILEX_SESSION_SECRET="$password"'
 Environment='GITLAB_CLIENT_ID="$gitlab_id"'
 Environment='GITLAB_CLIENT_SECRET="$gitlab_secret"'
 ExecStart=__NODEJS_DIR__/npm start
