@@ -18,7 +18,7 @@ WorkingDirectory=__INSTALL_DIR__/
 # Environment='SILEX_URL="$domain$path"'
 Environment='GITLAB_CLIENT_ID="$gitlab_id"'
 Environment='GITLAB_CLIENT_SECRET="$gitlab_secret"'
-ExecStart=__NODEJS_DIR__/npm start
+ExecStart=__NODEJS_DIR__/npm run dev
 ###########
 
 StandardOutput=append:/var/log/__APP__/__APP__.log
