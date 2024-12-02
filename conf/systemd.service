@@ -14,9 +14,10 @@ Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
 ###########
 # EXECSTART
-# Environment='SILEX_URL="$domain$path"'
+Environment='SILEX_URL="$domain$path:6805"'
 Environment='GITLAB_CLIENT_ID="$gitlab_id"'
 Environment='GITLAB_CLIENT_SECRET="$gitlab_secret"'
+Environment='SILEX_HOST="$domain$path"'
 ExecStart=__NODEJS_DIR__/npm start
 ###########
 
